@@ -1,1 +1,5 @@
 openharmony build
+
+sudo ./harmonyos.sh
+sudo chmod a+x ./path.sh
+./path.sh
