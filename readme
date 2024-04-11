@@ -1,5 +1,7 @@
-openharmony build
-
+openharmony build:
 sudo ./harmonyos.sh
 sudo chmod a+x ./path.sh
 ./path.sh
+
+docker build:
+https://hub.docker.com/repository/docker/wqqaq1/openharmony-docker
