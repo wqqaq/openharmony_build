@@ -1,6 +1,5 @@
-openharmony build:
-sudo ./harmonyos.sh
-sudo chmod a+x ./path.sh
+openharmony_env build in docker:
+./harmonyos.sh
 ./path.sh
 
 docker build:
