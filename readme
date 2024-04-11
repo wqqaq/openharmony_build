@@ -4,3 +4,6 @@ openharmony_env build in docker:
 
 docker build:
 https://hub.docker.com/repository/docker/wqqaq1/openharmony-docker
+cd /home/openharmony/code-v1.1.1-LTS
+hd set
+hd build -f
