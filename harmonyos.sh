@@ -35,7 +35,7 @@ pip3 install --trusted-host mirrors.aliyun.com -i https://mirrors.aliyun.com/pyp
 pip3 install --trusted-host mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple kconfiglib
 pip3 install --trusted-host mirrors.aliyun.com -i http://mirrors.aliyun.com/pypi/simple pycryptodome
 pip3 install --trusted-host mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple ecdsa
-python3 -m pip install --user ohos-build
+python3 -m pip install --user ohos-build==0.4.3
 
 mkdir -p /home/tools
 wget -P /home/tools https://repo.huaweicloud.com/harmonyos/compiler/clang/9.0.0-36191/linux/llvm-linux-9.0.0-36191.tar
